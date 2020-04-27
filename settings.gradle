@@ -1,0 +1,3 @@
+rootProject.name='apptouchsdk_app'
+include ':apptouchsdk_lib'
+include ':apptouchsdk-unity_lib'
