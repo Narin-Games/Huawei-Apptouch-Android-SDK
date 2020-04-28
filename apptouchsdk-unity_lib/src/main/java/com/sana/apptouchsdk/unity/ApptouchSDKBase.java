@@ -7,8 +7,6 @@ import com.sana.apptouchsdk.unity.wrapper.ApptouchUnitySender;
 import com.unity3d.player.UnityPlayer;
 
 public class ApptouchSDKBase {
-    protected static ApptouchUnitySender eventManagerWrapper = new ApptouchUnitySender();
-
     protected static Activity getCurrentActivity() {
         return UnityPlayer.currentActivity;
     }
